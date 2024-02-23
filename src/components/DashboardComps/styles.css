@@ -1,0 +1,80 @@
+/* Hero Section */
+
+.hero-section-wrapper{ 
+    background-image: url("https://picsum.photos/id/201/1920/1080");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width:100%; 
+    height: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.hero-section-div{ 
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    backdrop-filter: blur(4px);
+}
+.hero-section-hero-cont{ 
+    margin: 2.5rem 4rem;
+    color: var(--white);
+}
+.hero-section-hero-cont h1{ 
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-section-hero-cont button{ 
+    margin-top: 4.5rem;
+    width: 172px;
+    height: 48px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Subject Section */
+.subject-section-subjects-cards{ 
+    display: flex;
+    gap: 1.40rem;
+    flex-wrap: wrap;
+}
+.subject-card{ 
+    max-width: 176px;
+}
+.sub-img{ 
+    width: 176px;
+    height: 176px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sub-img img{ 
+    width: 100%;
+    height: 100%;
+}
+.sub-name{ 
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 500
+}
+.last-visited{ 
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 400; 
+}
