@@ -1,11 +1,13 @@
 import React from 'react'; 
 import logo from "../../assets/Vector - 0.svg"; 
 import NotificationsNoneRoundedIcon from '@mui/icons-material/NotificationsNoneRounded';
+import { Link } from 'react-router-dom';
 import "./styles.css"; 
 
 function Navbar() {
   return (
-    <div className='nav-bar'>
+    <div className='nav-bar'
+    >
         <div className='logo'>
             <img src={logo}/>
             <h2>indiana.edu</h2>
@@ -14,7 +16,9 @@ function Navbar() {
             <div className='nav-links'>
                 <ul>
                     <li>
-                        Aptitude
+                   <Link to='/aptitude'>
+                   Aptitude
+                   </Link>
                     </li>
                     <li>
                         Reasoning

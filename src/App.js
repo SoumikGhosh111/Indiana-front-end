@@ -7,11 +7,11 @@ import './App.css';
 function App() {
   return (
     <div >
-      <Navbar />
       <Router>
+      <Navbar />
         <Routes>
           <Route path='/' element={<DashboardPage />}/>
-          <Route path='/apptitude' element={<ApptitudePage />}/>
+          <Route path='/aptitude' element={<ApptitudePage /> }/>
         </Routes>
       </Router>
     </div>
