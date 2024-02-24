@@ -67,4 +67,14 @@
 .book-mark-button .bell-icon-button button{ 
     background: var(--lightgrey);
 }
-
+.navbar-links{ 
+    text-decoration: none;
+    color: var(--black);
+}
+.hover-animation:hover{ 
+    color: var(--lightgreen);
+    transition: all 0.3s ease-in-out; 
+}
+.hover-animation:not(:hover){ 
+    transition: all 0.3s ease-in-out; 
+}

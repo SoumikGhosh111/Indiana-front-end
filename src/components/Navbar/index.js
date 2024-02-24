@@ -10,27 +10,35 @@ function Navbar() {
     >
         <div className='logo'>
             <img src={logo}/>
-            <h2>indiana.edu</h2>
+            <h2><Link to='/' className = 'navbar-links'>indiana.edu</Link></h2>
         </div>
         <div className='nav-links-pages-account'>
             <div className='nav-links'>
                 <ul>
                     <li>
-                   <Link to='/aptitude'>
-                   Aptitude
+                   <Link to='/aptitude' className = 'navbar-links hover-animation'>
+                        Aptitude
                    </Link>
                     </li>
                     <li>
+                    <Link to='/reasoning' className = 'navbar-links hover-animation'>
                         Reasoning
+                   </Link>
                     </li>
                     <li>
+                    <Link to='/gs' className = 'navbar-links hover-animation'>
                         GS
+                   </Link>
                     </li>
                     <li>
+                    <Link to='/programing' className = 'navbar-links hover-animation'>
+                        Programing
+                   </Link>
+                    </li>
+                    <li>
+                    <Link to='/engineering' className = 'navbar-links hover-animation'>
                         Engineering
-                    </li>
-                    <li>
-                        Programming
+                   </Link>
                     </li>
                 </ul>
             </div>

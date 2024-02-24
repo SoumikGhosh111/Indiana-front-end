@@ -16,6 +16,10 @@ function App() {
         <Routes>
           <Route path='/' element={<DashboardPage />}/>
           <Route path='/aptitude' element={<ApptitudePage /> }/>
+          <Route path='/reasoning' element={<ReasoningPage/> }/>
+          <Route path='/gs' element={<GSPage /> }/>
+          <Route path='/programing' element={<ProgramingPage /> }/>
+          <Route path='/engineering' element={<EngineeringPage /> }/>
         </Routes>
       </Router>
     </div>
