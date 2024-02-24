@@ -1,6 +1,10 @@
 import Navbar from './components/Navbar';
 import DashboardPage from './pages/DashboardPage';
 import ApptitudePage from './pages/ApptitudePage';
+import ReasoningPage from './pages/ReasoningPage';
+import GSPage from './pages/GSPage';
+import ProgramingPage from './pages/ProgramingPage';
+import EngineeringPage from './pages/EngineeringPage';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"; 
 import './App.css';
 
