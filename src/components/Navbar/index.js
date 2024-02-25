@@ -44,7 +44,7 @@ function Navbar() {
             </div>
 
             <div className='nav-links-account'>
-                <button className='book-mark-button'>Book Mark</button>
+                <button className='book-mark-button' >Book Mark</button>
                 <button className='bell-icon-button'><NotificationsNoneRoundedIcon /></button>
                 <div className='accnt-img'>
                     <img src='https://picsum.photos/id/237/200/300'/>

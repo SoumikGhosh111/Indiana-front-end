@@ -1,0 +1,25 @@
+.dynamic-page-1-wrapper{ 
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    overflow: hidden;
+    max-height: 90vh;
+}
+.dynamic-page-1-side-bar{ 
+    flex: 0.25;
+    position: sticky;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x : hidden;
+}
+.dynamic-page-1-main-body{ 
+    flex: 0.75;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.dynamic-page-1-main-body::-webkit-scrollbar{ 
+    display: none;
+}
+.dynamic-page-1-side-bar::-webkit-scrollbar{ 
+    display: none;
+}

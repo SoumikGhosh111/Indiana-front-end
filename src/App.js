@@ -5,6 +5,8 @@ import ReasoningPage from './pages/ReasoningPage';
 import GSPage from './pages/GSPage';
 import ProgramingPage from './pages/ProgramingPage';
 import EngineeringPage from './pages/EngineeringPage';
+import DynamicPge1 from './components/DynamicPage1';
+import DynamicPAge2 from './components/DynamicPage2';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"; 
 import './App.css';
 
@@ -20,6 +22,8 @@ function App() {
           <Route path='/gs' element={<GSPage /> }/>
           <Route path='/programing' element={<ProgramingPage /> }/>
           <Route path='/engineering' element={<EngineeringPage /> }/>
+          <Route path='/dynamic_page_1' element={<DynamicPge1 /> }/>
+          <Route path='/dynamic_page_2' element={<DynamicPAge2 /> }/>
         </Routes>
       </Router>
     </div>
