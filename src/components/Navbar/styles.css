@@ -19,6 +19,7 @@
     gap: 1rem;
     margin: 0rem 1rem; 
     font-weight: 700;
+    animation: onLoadAnimation-right-side 1s ease-in-out;
 }
 /* semi-main div */
 .nav-links-pages-account{ 
@@ -26,6 +27,7 @@
     justify-content: center;
     align-content: center;
     margin: 0rem 1rem;
+    animation: onLoadAnimation-right-side 1s ease-in-out;
 }
 .nav-links ul li{ 
    display: inline-block ;
@@ -70,11 +72,49 @@
 .navbar-links{ 
     text-decoration: none;
     color: var(--black);
+    /* border: 1px solid red; */
 }
+
 .hover-animation:hover{ 
     color: var(--lightgreen);
     transition: all 0.3s ease-in-out; 
 }
+.on-hover-hor-line{ 
+    height: 3px;
+    width: 100%;
+    background-color: transparent; 
+    transform: translateX(-100%);
+}
+.hover-animation:hover .on-hover-hor-line{ 
+    background-color: var(--lightgreen);
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
+}
+.hover-animation:not(:hover) .on-hover-hor-line{ 
+    transition: all 0.3s ease-in-out; 
+}
+
+
 .hover-animation:not(:hover){ 
     transition: all 0.3s ease-in-out; 
+}
+
+
+@keyframes onLoadAnimation-right-side {
+    0%{ 
+        transform: translateX(-100%);
+    }
+    100%{ 
+        transform: translateX( 0);
+    }
+}
+
+
+@keyframes onLoadAnimation-left-side {
+    0%{ 
+        transform: translateX(100%);
+    }
+    100%{ 
+        transform: translateX( 0);
+    }
 }

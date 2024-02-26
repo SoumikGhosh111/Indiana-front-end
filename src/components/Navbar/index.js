@@ -18,26 +18,31 @@ function Navbar() {
                     <li>
                    <Link to='/aptitude' className = 'navbar-links hover-animation'>
                         Aptitude
+                   <div className='on-hover-hor-line'></div>
                    </Link>
                     </li>
                     <li>
                     <Link to='/reasoning' className = 'navbar-links hover-animation'>
                         Reasoning
+                        <div className='on-hover-hor-line'></div>
                    </Link>
                     </li>
                     <li>
                     <Link to='/gs' className = 'navbar-links hover-animation'>
                         GS
+                        <div className='on-hover-hor-line'></div>
                    </Link>
                     </li>
                     <li>
                     <Link to='/programing' className = 'navbar-links hover-animation'>
                         Programing
+                        <div className='on-hover-hor-line'></div>
                    </Link>
                     </li>
                     <li>
                     <Link to='/engineering' className = 'navbar-links hover-animation'>
                         Engineering
+                        <div className='on-hover-hor-line'></div>
                    </Link>
                     </li>
                 </ul>
