@@ -2,7 +2,9 @@ import React from 'react';
 import logo from "../../assets/Vector - 0.svg"; 
 import NotificationsNoneRoundedIcon from '@mui/icons-material/NotificationsNoneRounded';
 import { Link } from 'react-router-dom';
+import { motion } from "framer-motion"; 
 import "./styles.css"; 
+import { lightGreen } from '@mui/material/colors';
 
 function Navbar() {
   return (
@@ -49,8 +51,13 @@ function Navbar() {
             </div>
 
             <div className='nav-links-account'>
-                <button className='book-mark-button' >Book Mark</button>
-                <button className='bell-icon-button'><NotificationsNoneRoundedIcon /></button>
+                <motion.button className='book-mark-button'
+                    whileHover={{}} 
+                    whileTap={{scale: 0.9}}
+                >Book Mark</motion.button>
+                <motion.button className='bell-icon-button'
+                    whileTap= {{scale:0.8}}
+                ><NotificationsNoneRoundedIcon /></motion.button>
                 <div className='accnt-img'>
                     <img src='https://picsum.photos/id/237/200/300'/>
                 </div>
