@@ -101,7 +101,14 @@
 .hover-animation:not(:hover){ 
     transition: all 0.3s ease-in-out; 
 }
-
+.hover-animation.active .on-hover-hor-line{ 
+    background: var(--lightgreen);
+    width: 100%;
+    display: block;
+}
+.hover-animation.active { 
+    color: var(--lightgreen);
+}
 
 @keyframes onLoadAnimation-right-side {
     0%{ 

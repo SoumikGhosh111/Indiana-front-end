@@ -21,9 +21,21 @@
     margin: 2.5rem 4rem;
     color: var(--white);
 }
+
 .hero-section-hero-cont h1{ 
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 600;
+    color: var(--white);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--white);
+    margin: 0
+}
+.hero-section-hero-cont h1:hover{ 
+    color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+.hero-section-hero-cont h1:not(:hover){ 
+    transition: all 0.5s ease-in-out;
 }
 .hero-section-hero-cont button{ 
     margin-top: 4.5rem;

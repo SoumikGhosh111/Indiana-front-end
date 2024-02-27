@@ -18,7 +18,7 @@ function Navbar() {
             <div className='nav-links'>
                 <ul>
                     <li>
-                   <Link to='/aptitude' className = 'navbar-links hover-animation'>
+                   <Link to='/aptitude' activeClassName="active" className = 'navbar-links hover-animation'>
                         Aptitude
                    <div className='on-hover-hor-line'></div>
                    </Link>
@@ -52,11 +52,14 @@ function Navbar() {
 
             <div className='nav-links-account'>
                 <motion.button className='book-mark-button'
-                    whileHover={{}} 
+                    whileHover={{scale: 1.07}} 
                     whileTap={{scale: 0.9}}
+                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 >Book Mark</motion.button>
                 <motion.button className='bell-icon-button'
-                    whileTap= {{scale:0.8}}
+                    whileHover={{scale: 1.07}} 
+                    whileTap={{scale: 0.8}}
+                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
                 ><NotificationsNoneRoundedIcon /></motion.button>
                 <div className='accnt-img'>
                     <img src='https://picsum.photos/id/237/200/300'/>
