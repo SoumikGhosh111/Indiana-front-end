@@ -1,9 +1,17 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react';
 
-function DynamicPAge2() {
+function DynamicPage2({ data }) {
+ 
+
+  console.log(data);
   return (
-    <div>DynamicPAge2</div>
+    <div>
+      <h1 style={{textTransform: "capitalize"}}>
+        {data.data}
+      </h1>
+      
+    </div>
   )
 }
 
-export default DynamicPAge2
+export default DynamicPage2;
