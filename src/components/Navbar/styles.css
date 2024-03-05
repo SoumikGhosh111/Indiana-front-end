@@ -136,3 +136,10 @@
         opacity: 100%;
     }
 }
+
+
+@media screen and (orientation: portrait){ 
+    .nav-bar{ 
+        display: none; 
+    }
+}

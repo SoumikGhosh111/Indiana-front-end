@@ -7,6 +7,7 @@ import ProgramingPage from './pages/ProgramingPage';
 import EngineeringPage from './pages/EngineeringPage';
 import DynamicPge1 from './components/DynamicPage1';
 import DynamicPAge2 from './components/DynamicPage2';
+import Drawer from './components/NavbarDrawer/Drawer';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"; 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
     <div >
       <Router>
       <Navbar />
+      <Drawer />
         <Routes>
           <Route path='/' element={<DashboardPage />}/>
           <Route path='/aptitude' element={<ApptitudePage /> }/>
